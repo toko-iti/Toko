@@ -91,8 +91,9 @@
                 </div>
                 <div class="col-lg-12">
                     <div class="jumbotron">
-                        <h1>Jumbotron</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing.</p>
+                        <h1>Uploader votre site</h1>
+                        <p>Pour uploader votre site, c'est très simple; vous avez juste a utiliser votre client ftp préferer à vous connecter dessus en utilisant : sftp://labo.itinet.fr port 6509 et à mettre votre login dessus.
+                            si vous utilisez filezila, clicker sur le bouton ci dessous. Pour uploader votre base de donné, rien de plus simple ! Clicker sur ce lien : <a href="../../v_user_phpmyadmin.php" type="button" class="btn btn-primary btn-lg" role="button">PhpMyAdmin</a> </p>
                         <a href="filezila://" type="button" class="btn btn-primary btn-lg" role="button">Ouvrir Filezilla</a>
                         
                     </div>
