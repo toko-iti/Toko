@@ -114,6 +114,7 @@
                                         <div class="form-group">
                                             <label>File input</label>
                                             <input type="file">
+                                            <hr>
                                             <button type="submit" class="btn btn-default">Valider</button>
                                         <button type="reset" class="btn btn-default">Reset</button>
                                         </div>
