@@ -106,7 +106,7 @@
                      <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <form role="form" action="../test/m_userdb.php" method="POST">
+                                    <form role="form" action="../modele/m_userdb.php" method="POST">
                                         <div class="form-group">
                                             <label>Base de donné</label><br>
                                              Login:<input class="form-control" type="text" id="projet" name="projet">
