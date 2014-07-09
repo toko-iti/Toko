@@ -90,26 +90,17 @@
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            Information Domaine
+                            Ajouter un Domaine
                         </div>
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <form role="form">
+                                    <form role="form" action="Toko/control/c_add_domain.php" method="POST">
                                         <div class="form-group">
-                                            <label>ID domain</label>
-                                            <p class="form-control-static">tondomaine.toko.itinet.fr</p>
                                             <label>Nouveau Domaine</label>
                                             <input class="form-control" placeholder="ton domaine">
+                                            <input id="submit" value="Valider" type="submit" class="btn btn-default">Valider</input>
                                         </div>
-                                        <div class="form-group">
-                                           
-                                            <label>Nouveau Mail</label>
-                                            <input class="form-control" placeholder="ton domaine">
-                                        </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-default">Valider</button>
-                                        <button type="reset" class="btn btn-default">Reset</button>
                                     </form>
                                 </div>
                                     </form>
