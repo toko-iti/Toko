@@ -114,10 +114,10 @@
                                         <div class="form-group">
                                             <label>File input</label>
                                             <input type="file">
-                                        </div>
-                                        </div>
-                                        <button type="submit" class="btn btn-default">Valider</button>
+                                            <button type="submit" class="btn btn-default">Valider</button>
                                         <button type="reset" class="btn btn-default">Reset</button>
+                                        </div>
+                                        </div>
                                     </form>
                                 </div>
                                     </form>
