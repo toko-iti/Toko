@@ -56,26 +56,28 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default navbar-static-side" role="navigation">
-                <div class="sidebar-collapse">
+<div class="sidebar-collapse">
                     <ul class="nav" id="side-menu">
-                            
-                        <li>
+
+		      <li>
                             <a href="v_user_index.php"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
                         </li>
                         <li>
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Manage<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="v_user_domain.php">manage domain</a>
+                                    <a href="v_user_domain.php"><i class="fa fa-cog"></i>  manage domain</a>
                                 </li>
                                 <li>
-                                    <a href="../../phpmyadmin">manage database</a>
+                                    <a href="../../phpmyadmin"><i class="fa fa-cloud"></i>  manage database</a>
+                                </li>
+                                <li>
+                                    <a href="http://webmail.toko.itinet.fr"><i class="fa fa-envelope-o"></i>  Email</a>
                                 </li>
                             </ul>
-                            
                         </li>
                     </ul>
-                    <!-- /#side-menu -->
+                </div>
                 </div>
                 <!-- /.sidebar-collapse -->
             </div>
@@ -83,7 +85,7 @@
         </nav>
         <?php
     include('../modele/m_connection_bdd.php');
-    include('../modele/m_show_account.php')
+    include('../modele/m_show_account.php');
     ?>
         <div id="page-wrapper">
             <div class="row">
@@ -101,7 +103,7 @@
                                     <form action="../control/c_modify_account.php" role="form">
                                         <div class="form-group">
                                             <label>ID account</label>
-                                            <p class="form-control-static"><?php echo $resultat["Mail"],?></p>
+                                            <p class="form-control-static"><?php echo $resultat["Mail"];?></p>
                                             <label>Nouveau Mail</label>
                                             <input class="form-control" name="mail" placeholder="ton nouveau mail">
                                         </div>
@@ -113,18 +115,6 @@
                                             <label>File input</label>
                                             <input type="file">
                                         </div>
-                                        <div class="form-group">
-                                            <label>Option</label>
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Supprimer compte
-                                                </label>
-                                            </div>
-                                            <div class="radio">
-                                                <label>
-                                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">Suspendre compte
-                                                </label>
-                                            </div>
                                         </div>
                                         <button type="submit" class="btn btn-default">Valider</button>
                                         <button type="reset" class="btn btn-default">Reset</button>

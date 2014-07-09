@@ -12,25 +12,26 @@ if (!$trouver) {
 	// Si le pseudo et le mail sont libres on verifie que les mdp et le mdp verif corespondent
 	if (!$trouver) {
 		// si les mdp corespondent on ajoute le membre a la bdd
-		if($_POST['password'] == $_POST['password2']) {
+		if($_POST['password'] == $_POST['password2'] && strlen($_POST['password']) > 6) {
 			include('../modele/m_add_member.php');
 			// Creation de la base de donnee pour le nouveau utilisateur:
 			exec("/usr/bin/sudo /home/toko/master.sh '".$_POST['project']."' '".$_POST['password']."'");
 			 exec("/usr/bin/sudo /etc/script/test.sh");
-			//include('../modele/m_uderdb.php');
+				echo "test www";
+			include('../modele/m_uderdb.php');
 			header('Location: ../vue/v_login.php');
 			$_SESSION = array();
 		} else {
 			echo 'Le mot de passe et la verification ne correspondent pas!<br>';
-			header('Location: ../index.php');
+			header('Location: ../../index.php');
 			
 		}
 	} else {
 		echo "Ce mail n'est plus disponible<br>";
-		header('Location: ../index.php');
+		header('Location: ../../index.php');
 	}
 } else {
 	echo "Ce nom de compte n'est plus disponible<br>";
-	header('Location: ../index.php');
+	header('Location: ../../index.php');
 }
 ?>

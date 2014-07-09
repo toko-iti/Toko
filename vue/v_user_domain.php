@@ -43,7 +43,7 @@
                         <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-user">
-                        <li><a href="v_user_modify_user.html"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        <li><a href="v_user_modify_user.php"><i class="fa fa-user fa-fw"></i> User Profile</a>
                         </li>
                         <li class="divider"></li>
                         <li><a href="v_deconnection.php"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
@@ -56,7 +56,7 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default navbar-static-side" role="navigation">
-                <div class="sidebar-collapse">
+<div class="sidebar-collapse">
                     <ul class="nav" id="side-menu">
                             
                         <li>
@@ -66,16 +66,18 @@
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Manage<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="v_user_domain.php">manage domain</a>
+                                    <a href="v_user_domain.php"><i class="fa fa-cog"></i>  manage domain</a>
                                 </li>
                                 <li>
-                                    <a href="../../phpmyadmin">manage database</a>
+                                    <a href="v_manage_database.php"><i class="fa fa-cloud"></i>  manage database</a>
+                                </li>
+                                <li>
+                                    <a href="http://webmail.toko.itinet.fr"><i class="fa fa-envelope-o"></i>  Email</a>
                                 </li>
                             </ul>
-                            
                         </li>
                     </ul>
-                    <!-- /#side-menu -->
+                </div>
                 </div>
                 <!-- /.sidebar-collapse -->
             </div>
@@ -95,7 +97,7 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <form role="form" action="Toko/control/c_add_domain.php" method="POST">
+                                    <form role="form" action="../control/c_add_domain.php" method="POST">
                                         <div class="form-group">
                                             <label>Nouveau Domaine</label>
                                             <input class="form-control" placeholder="ton domaine">

@@ -1,3 +1,4 @@
 <?php
-echo exec();
+         exec("/usr/bin/sudo /home/toko/restartpostfix.sh");
+
 ?>

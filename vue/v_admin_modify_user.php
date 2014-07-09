@@ -84,7 +84,7 @@
         </nav>
         <?php
     include('../modele/m_connection_bdd.php');
-    include('../modele/m_show_account.php')
+    include('../modele/m_show_account.php');
     ?>
         <div id="page-wrapper">
             <div class="row">
@@ -102,7 +102,7 @@
                                     <form role="form">
                                         <div class="form-group">
                                             <label>ID account</label>
-                                            <p class="form-control-static"><?php echo $resultat["Mail"],?></p>
+                                            <p class="form-control-static"><?php echo $resultat["Mail"];?></p>
                                             <label>Nouveau Mail</label>
                                             <input class="form-control" name="mail" placeholder="nouveau mail">
                                         </div>

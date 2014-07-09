@@ -91,29 +91,37 @@
                 <div class="panel-body">
                             <h4>Service</h4>
                             <p>
-                                <input type="button" class="btn btn-warning">restart apache</input>
+                                <a href="./v_admin_server.php?apache=true" type="button" class="btn btn-warning">restart apache</a>
                                 <?php 
-                                include "c_restart_apache.php";
+				   if ($_GET['apache'])
+                                   include "c_restart_apache.php";
                                 ?>
-                                <input type="button" class="btn btn-warning">restart mail</input>
+                                <a href="./v_admin_server.php?mail=true"  type="button" class="btn btn-warning">restart mail</a>
                                 <?php 
-                                include "c_restart_mail.php";
+				   if ($_GET['mail'])
+                                   include "c_restart_mail.php";
                                 ?>
-                                <input type="button" class="btn btn-warning">restart dns</input>
+                                <a href="./v_admin_server.php?dns=true"  type="button" class="btn btn-warning">restart dns</a>
                                 <?php 
-                                include "c_restart_dns.php";
+				   if ($_GET['dns'])
+                                   include "c_restart_dns.php";
                                 ?>
-                                <input type="button" class="btn btn-warning">restart all service</input>
+                                <a href="./v_admin_server.php?all=true"  type="button" class="btn btn-warning">restart all service</a>
                                 <?php 
-                                include "c_restart_all.php";
-                                ?>
+				   if ($_GET['all']
+				   {
+                                   include "c_restart_dns.php";
+				   include "c_restart_mail.php";
+                                   include "c_restart_apache.php";
+				   }
+				   ?>
                                 <hr>
                                 <h4>Server</h4>
-                                <input  type="button" class="btn btn-danger">reboot</input>
+                                <a href="./v_admin_server.php?reboot=truehref="./v_admin_server.php?""  type="button" class="btn btn-danger">reboot</a>
                                 <?php 
                                 include "c_reboot.php";
                                 ?>
-                                <input  type="button" class="btn btn-danger">shutdown(mettre alerte javascript</input>
+                                <a  type="button" class="btn btn-danger">shutdown(mettre alerte javascript</a>
                             </p>
                 
             </div>

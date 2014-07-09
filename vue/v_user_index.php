@@ -56,9 +56,9 @@
             <!-- /.navbar-top-links -->
 
             <div class="navbar-default navbar-static-side" role="navigation">
-                <div class="sidebar-collapse">
+<div class="sidebar-collapse">
                     <ul class="nav" id="side-menu">
-                            
+
                         <li>
                             <a href="v_user_index.php"><i class="fa fa-dashboard fa-fw"></i>Dashboard</a>
                         </li>
@@ -66,17 +66,19 @@
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Manage<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="v_user_domain.php">manage domain</a>
+                                    <a href="v_user_domain.php"><i class="fa fa-cog"></i>  manage domain</a>
                                 </li>
                                 <li>
-                                    <a href="../../phpmyadmin" target="_blank">manage database</a>
+                                    <a href="../../phpmyadmin"><i class="fa fa-cloud"></i>  manage database</a>
+                                </li>
+                                <li>
+                                    <a href="http://webmail.toko.itinet.fr"><i class="fa fa-envelope-o"></i>  Email</a>
                                 </li>
                             </ul>
-                            
                         </li>
                     </ul>
-                    <!-- /#side-menu -->
                 </div>
+
                 <!-- /.sidebar-collapse -->
             </div>
             <!-- /.navbar-static-side -->
@@ -91,8 +93,8 @@
                     <div class="jumbotron">
                         <h1>Jumbotron</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing, posuere lectus et, fringilla augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt est vitae ultrices accumsan. Aliquam ornare lacus adipiscing.</p>
-                        <p><a class="btn btn-primary btn-lg" role="button">Learn more</a>
-                        </p>
+                        <a href="filezila://" type="button" class="btn btn-primary btn-lg" role="button">Ouvrir Filezilla</a>
+                        
                     </div>
                 </div>
                 <div class="row">

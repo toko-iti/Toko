@@ -67,7 +67,7 @@
                                     <a href="v_admin_server.php">Server</a>
                                 </li>
                                 <li>
-                                    <a href="v_user_modify_user.php">manage user</a>
+                                    <a href="v_admin_modify_user.php">manage user</a>
                                 </li>
                                  <li>
                                     <a href="../../phpmyadmin">manage database</a>
