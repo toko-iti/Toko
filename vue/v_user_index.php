@@ -69,7 +69,7 @@
                                     <a href="v_user_domain.php"><i class="fa fa-cog"></i>  manage domain</a>
                                 </li>
                                 <li>
-                                    <a href="sql.toko.itinet.fr"><i class="fa fa-cloud"></i>  manage database</a>
+                                    <a href="http://sql.toko.itinet.fr"><i class="fa fa-cloud"></i>  manage database</a>
                                 </li>
                                 <li>
                                     <a href="http://webmail.toko.itinet.fr"><i class="fa fa-envelope-o"></i>  Email</a>

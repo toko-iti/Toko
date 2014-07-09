@@ -70,20 +70,10 @@
                                     <a href="v_user_domain.php"><i class="fa fa-cog"></i>  manage domain</a>
                                 </li>
                                 <li>
-                                    <a href="v_manage_database.php"><i class="fa fa-cloud"></i>  manage database</a>
+                                    <a href="http://sql.toko.itinet.fr"><i class="fa fa-cloud"></i>  manage database</a>
                                 </li>
                                 <li>
                                     <a href="http://webmail.toko.itinet.fr"><i class="fa fa-envelope-o"></i>  Email</a>
-
-                                    <a href="v_user_domain.php"><i class="fa fa-database"></i>manage domain</a>
-                                </li>
-                                <li>
-                                    <a href="sql.toko.itinet.fr"><i class="fa fa-cog"></i>manage database</a>
-                                </li>
-                                <li>
-                                    <a href="webmail.toko.itinet.fr"><i class="fa fa-envelope-o"></i>Email</a>
-
-                                </li>
                             </ul>
                         </li>
                     </ul>
