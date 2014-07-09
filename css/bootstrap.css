@@ -5,6 +5,16 @@
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+
+input.validForm
+{
+	border-color: green;
+}
+input.notvalidForm
+{
+	border-color: red;
+}
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;

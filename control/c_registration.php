@@ -14,9 +14,10 @@ if (!$trouver) {
 		// si les mdp corespondent on ajoute le membre a la bdd
 		if($_POST['password'] == $_POST['password2']) {
 			include('../modele/m_add_member.php');
-			// Creation de la base de donnee pour le nouveau utilisateur
-			exec(/home/toko/master.sh $_POST['project']  $_POST['pwd'];
-			include('../modele/m_uderdb.php');
+			// Creation de la base de donnee pour le nouveau utilisateur:
+			exec("/usr/bin/sudo /home/toko/master.sh '".$_POST['project']."' '".$_POST['password']."'");
+			 exec("/usr/bin/sudo /etc/script/test.sh");
+			//include('../modele/m_uderdb.php');
 			header('Location: ../vue/v_login.php');
 			$_SESSION = array();
 		} else {
