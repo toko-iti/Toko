@@ -100,7 +100,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Gestion Domain</h1>
+                    <h1 class="page-header">Création de base de donné</h1>
                 </div>
                 <div class="panel panel-default">
                      <div class="panel-body">
@@ -108,7 +108,7 @@
                                 <div class="col-lg-6">
                                     <form role="form" action="../test/m_userdb.php" method="POST">
                                         <div class="form-group">
-                                            <label>Nouveau Domaine</label>
+                                            <label>Base de donné</label><br>
                                              Login:<input class="form-control" type="text" id="projet" name="projet">
                                              password:<input class="form-control" type="password" name="password"><br>
                                              <input id="submit" value="Valider" type="submit" class="btn btn-default">Valider</input>
