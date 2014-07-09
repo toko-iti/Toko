@@ -66,10 +66,13 @@
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i>Manage<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="v_user_domain.php">manage domain</a>
+                                    <a href="v_user_domain.php"><i class="fa fa-database"></i>manage domain</a>
                                 </li>
                                 <li>
-                                    <a href="../../phpmyadmin">manage database</a>
+                                    <a href="../../phpmyadmin"><i class="fa fa-cog"></i>manage database</a>
+                                </li>
+                                <li>
+                                    <a href="webmail.toko.itinet.fr"><i class="fa fa-envelope-o"></i>Email</a>
                                 </li>
                             </ul>
                             
