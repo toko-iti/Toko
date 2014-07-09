@@ -77,7 +77,6 @@
                             </ul>
                         </li>
                     </ul>
-                    <!-- /#side-menu -->
                 </div>
                 <!-- /.sidebar-collapse -->
             </div>
