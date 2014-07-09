@@ -121,7 +121,7 @@
                                 <?php 
                                 include "c_reboot.php";
                                 ?>
-                                <a  type="button" class="btn btn-danger">shutdown(mettre alerte javascript</a>
+                                <a  type="button" class="btn btn-danger">shutdown</a>
                             </p>
                 
             </div>
