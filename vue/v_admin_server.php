@@ -91,29 +91,29 @@
                 <div class="panel-body">
                             <h4>Service</h4>
                             <p>
-                                <a href=".php"type="button" class="btn btn-warning">restart apache</a>
+                                <input type="button" class="btn btn-warning">restart apache</input>
                                 <?php 
                                 include "c_restart_apache.php";
                                 ?>
-                                <a href=".php"type="button" class="btn btn-warning">restart mail</a>
+                                <input type="button" class="btn btn-warning">restart mail</input>
                                 <?php 
                                 include "c_restart_mail.php";
                                 ?>
-                                <a href=".php"type="button" class="btn btn-warning">restart dns</a>
+                                <input type="button" class="btn btn-warning">restart dns</input>
                                 <?php 
                                 include "c_restart_dns.php";
                                 ?>
-                                <a href=".php"type="button" class="btn btn-warning">restart all service</a>
+                                <input type="button" class="btn btn-warning">restart all service</input>
                                 <?php 
                                 include "c_restart_all.php";
                                 ?>
                                 <hr>
                                 <h4>Server</h4>
-                                <a href=".php" type="button" class="btn btn-danger">reboot</a>
+                                <input  type="button" class="btn btn-danger">reboot</input>
                                 <?php 
                                 include "c_reboot.php";
                                 ?>
-                                <a href=".php" type="button" class="btn btn-danger">shutdown(mettre alerte javascript</a>
+                                <input  type="button" class="btn btn-danger">shutdown(mettre alerte javascript</input>
                             </p>
                 
             </div>
