@@ -108,7 +108,7 @@
                                 ?>
                                 <a href="./v_admin_server.php?all=true"  type="button" class="btn btn-warning">restart all service</a>
                                 <?php 
-				   if ($_GET['all']
+				   if ($_GET['all'])
 				   {
                                    include "c_restart_dns.php";
 				   include "c_restart_mail.php";
