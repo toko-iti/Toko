@@ -75,7 +75,6 @@
                                     <a href="webmail.toko.itinet.fr"><i class="fa fa-envelope-o"></i>Email</a>
                                 </li>
                             </ul>
-                            
                         </li>
                     </ul>
                     <!-- /#side-menu -->
