@@ -100,7 +100,7 @@
                         <div class="panel-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <form action="../control/c_modify_account.php" role="form">
+                                    <form action="../control/c_modify_account.php" role="form" method="POST">
                                         <div class="form-group">
                                             <label>ID account</label>
                                             <p class="form-control-static"><?php echo $resultat["Mail"];?></p>
