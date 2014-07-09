@@ -109,7 +109,8 @@
                                         </div>
                                         <div class="form-group">
                                             <label>Nouveau mot de passe</label>
-                                            <input class="form-control" name="passwd" placeholder="ton nouveau mot de passe"><input class="form-control" name= placeholder="vérification">
+                                            <input class="form-control" name="passwd" placeholder="ton nouveau mot de passe"><br>
+                                            <input class="form-control" name= placeholder="vérification">
                                         </div>
                                         <div class="form-group">
                                             <label>File input</label>
