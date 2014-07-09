@@ -111,7 +111,7 @@
                                             <label>Base de donné</label><br>
                                              Login:<input class="form-control" type="text" id="projet" name="projet">
                                              password:<input class="form-control" type="password" name="password"><br>
-                                             <input id="submit" value="Valider" type="submit" class="btn btn-default">Valider</input>
+                                             <input id="submit" value="Valider" type="submit" class="btn btn-default"></input>
                                         </div>
                                     </form>
                                 </div>

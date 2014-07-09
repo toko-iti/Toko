@@ -42,7 +42,6 @@
                                 </div>
                                 <!-- Change this to a button or input when using this as a form--> 
                                 <button type="submit"  class="btn btn-lg btn-success btn-block">Login</button>
-				<input type="submit" value="Login" class="btn btn-lg btn-succes btn-block">
                             </fieldset>
                         </form>
                     </div>
